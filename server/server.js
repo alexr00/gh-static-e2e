@@ -8,6 +8,7 @@ app.use('/GetProducts', function(req, res, next) {
 })
 
 app.listen(3005, function() {
+  // Log 
   console.log('server listening on http://localhost:3005');
 });
 
